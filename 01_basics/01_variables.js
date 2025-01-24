@@ -2,7 +2,7 @@ const accountId = 144553
 let accountEmail = "sharathkumartr@sc.com"
 var accountPassword = "165640"
 accountCity ="Bangalore"
-let accountState=
+let accountState
 
 //accountId = 2 // not allowed 
 console.log(accountId);
