@@ -13,8 +13,10 @@ const Anotherid =Symbol('123')
 console.log(id==Anotherid);
 
 
-//JavaScript is DynamicallyTyped programming language because
+//JavaScript is DynamicallyTyped programming language 
+
 //Reference DataType/non-primitive 
+
 //3-arrays,objects,functions
  const heros=["SuperMan","SpiderMan","IronMan"]
 
@@ -28,3 +30,27 @@ let myOnj={
     
 
  }
+ //***********************
+
+ //Stack(Primitive),Heap (Non-Primitive)
+
+ let myName="Sharath"
+ let AnotherName=myName
+ AnotherName="ShankarNAg"
+ console.log(myName);
+ console.log(AnotherName);
+
+ let user1={
+   email:"user@gmail.com",
+   upi:"user@ybl",
+
+ }
+ 
+ let user2=  user1
+
+ user2.email="sharath@gmail.com"
+
+ console.log(user1.email);
+ console.log(user2.email);
+ 
+ 
